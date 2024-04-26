@@ -25,7 +25,7 @@ As Imagens utilizadas neste projeto foram retiradas do site da [Apple Store Bras
 
 ### 💻 Como Acessar
 
-Você pode acessar a Eletronics Store diretamente [aqui](#). 👀
+Você pode acessar a Eletronics Store diretamente [aqui](https://eletronics-store.vercel.app/). 👀
 
 ## 🚀 Tecnologias Utilizadas
 
