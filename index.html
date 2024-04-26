@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon100px.png" type="image/x-icon">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- boxicons  -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- Google Fotns  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>ElectronicsStore</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-devices'></i>Store</a>
+
+        <!-- Links -->
+        <ul class="links">
+            <li><a href="#" class="active">Início</a></li>
+            <li><a href="#" class="">Sobre</a></li>
+            <li><a href="#" class="">Aparelhos</a></li>
+            <li><a href="#" class="">Comprar</a></li>
+            <li><a href="#" class="">Contato</a></li>
+        </ul>
+
+        <div class="buttons">
+            <a href="#" class="header-btn">Comprar</a>
+            <div class="bx bx-menu" id="menuIcon"></div>
+
+            <div class="">
+                <input type="checkbox" class="checkbox" id="modoEscuro">
+                <label for="modoEscuro" class="label">
+                    <div class='bx bx-sun'></div>
+                    <div class='bx bx-moon'></div>
+                    <div class="ball"></div>
+                </label>
+            </div>
+        </div>
+    </header><!--Fim Cabeçalho-->
+
+    <main>
+        <!--Section 1-->
+        <section class="hero">
+            <div class="hero-text animacao">
+                <h1>Electronics</h1>
+                <h4>Recursos Inovadores</h4>
+                <p>O melhor jeito de comprar o que você ama.</p>
+
+                <div class="hero-box BoxAnimation">
+                    <div class="box animacao">
+                        <h3>Celulares</h3>
+                        <img class="" src="imagens/ModeloCelular1.png" alt="">
+                    </div>
+
+                    <div class="box animacao">
+                        <h3>Desktops</h3>
+                        <img class="" src="imagens/desktops.png" alt="">
+                    </div>
+
+                    <div class="box animacao">
+                        <h3>Relógios</h3>
+                        <img class="" src="imagens/watchs.png" alt="">
+                    </div>
+
+                    <div class="box animacao">
+                        <h3>Tablets</h3>
+                        <img class="" src="imagens/tablet.png" alt="">
+                    </div>
+
+                    <div class="box animacao">
+                        <h3>Fones</h3>
+                        <img class="" src="imagens/fones.png" alt="">
+                    </div>
+
+                    <div class="box animacao">
+                        <h3>Acessoórios</h3>
+                        <img class="" src="imagens/acessorios.png" alt="">
+                    </div>
+
+                    <div class="box animacao">
+                        <h3>Televeisão</h3>
+                        <img class="" src="imagens/tv.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-img  animacao">
+                <img src="imagens/CelularNaMao.png" alt="">
+            </div>
+
+        </section><!--Fim Section 1-->
+
+        <div class="informacoes">
+            <div class="hero-text animacao detalhesInformacao">
+                <div class="ajuda ">
+                    <h3><img src="imagens/precisaDeAjuda.png" alt=""> Precisa de ajuda para comprar?</h3>
+                    <button class="ajudaLink">Fale com um especialista</button>
+                </div>
+
+            </div>
+        </div>
+
+        <section class="section2"><!--Section 2 -->
+            <div class="hero-text animacao">
+                <div>
+                    <h4>Quando e como você precisar.</h4>
+                    <section class="justify-items center">
+                        <div class="item animacao"><img src="imagens/especialistaOnline.png" alt="">
+                            <h3>Ajuda de um especialista.</h3>
+                        </div>
+                        <div class="item animacao"><img src="imagens/freteGratis.png" alt="">
+                            <h3>Frete grátis.</h3>
+                        </div>
+                        <div class="item animacao"><img src="imagens/parcelamento.png" alt="">
+                            <h3>Opções de parcelamento.</h3>
+                        </div>
+                        <div class="item animacao"><img src="imagens/compraPersonalizada.png" alt="">
+                            <h3>Compra personalizada.</h3>
+                        </div>
+                        <div class="item animacao"><img src="imagens/assistenciaTecnica.png" alt="">
+                            <h3>Assistência Técnica.</h3>
+                        </div>
+                        <div class="item animacao"><img src="imagens/garantia.png" alt="">
+                            <h3>Garantia de 1 ano.</h3>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section><!--Fim Section 2-->
+
+        <section class="sectionCarrossel"> <!--Section 3-->
+            <div class="hero-text animacao">
+                <h1>Novidades</h1>
+                <h4>Veja o que acabou de chegar.</h4>
+                <p></p>
+
+                <div class="bodycarrosel">
+
+                    <div class="wrapper BoxAnimation">
+                        <i id="right" class='bx bx-chevron-right'></i>
+                        <ul class="carrossel">
+                            <li class="card">
+                                <h3>Tablet Pro</h3>
+                                <span>A partir de R$ 9.799</span>
+                                <div class="imgCarrossel"><img src="imagens/novidadeTablet.png" draggable="false"
+                                        alt="">
+                                </div>
+                            </li>
+                            <li class="card">
+                                <h3>Modelos novos de Relógio</h3>
+                                <span>A partir de R$ 3.299</span>
+                                <div class="imgCarrossel"><img src="imagens/novidadeRelogio.png" draggable="false"
+                                        alt="">
+                                </div>
+                            </li>
+                            <li class="card">
+                                <h3>Fone Max</h3>
+                                <span>A partir de R$ 6.590</span>
+                                <div class="imgCarrossel"><img src="imagens/novidadeFone.png" draggable="false" alt="">
+                                </div>
+                            </li>
+                            <li class="card">
+                                <h3>Acessórios para seus eletronicos</h3>
+                                <span>A partir de R$ 500</span>
+                                <div class="imgCarrossel"><img src="imagens/novidadeAcessorios.png" draggable="false"
+                                        alt=""></div>
+                            </li>
+                            <li class="card">
+                                <h3>Modelos novos de Celular</h3>
+                                <span>A partir de R$ 9.299</span>
+                                <div class="imgCarrossel"><img src="imagens/novidadeCelulares.png" draggable="false"
+                                        alt="">
+                                </div>
+                            </li>
+                            <li class="card">
+                                <h3>Novas Cores de Tablet</h3>
+                                <span>A partir de R$ 4.999</span>
+                                <div class="imgCarrossel"><img src="imagens/novasCores.png" draggable="false" alt="">
+                                </div>
+                            </li>
+                        </ul>
+                        <i id="left" class='bx bx-chevron-left'></i>
+                    </div>
+                </div>
+            </div>
+        </section><!--Fim Section 3-->
+    </main>
+    <!--Footer-->
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <h4><a href="#" class="logoFooter"><i class='bx bxs-devices'></i>Store</a></h4>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Aparelhos</a></li>
+                        <li><a href="#">Comprar</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Obter Ajuda</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Devoluções</a></li>
+                        <li><a href="#">Transportadora</a></li>
+                        <li><a href="#">Status do Pedido</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Aparelhos</h4>
+                    <ul>
+                        <li><a href="#">Celulares</a></li>
+                        <li><a href="#">Desktops</a></li>
+                        <li><a href="#">Relógios</a></li>
+                        <li><a href="#">Tablets</a></li>
+                        <li><a href="#">Fones</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Receba Promoções!</h4>
+                    <div class="form-sub">
+                        <div class="formulario">
+                            <form>
+                                <input type="email" placeholder="Digite seu e-mail">
+                                <button>Cadastrar</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="redes-sociais">
+                        <ul>
+                            <a href="#"><i class='bx bxl-github'></i></a>
+                            <a href="#"><i class='bx bxl-linkedin'></i></a>
+                            <a href="#"><i class='bx bxl-instagram'></i></a>
+                            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footerCopy">
+        <p> 2024 <i class='bx bx-copyright'></i> Desenvolvido por Carolina Lima | Projeto fictício sem fins
+            comerciais.</p>
+    </div>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
