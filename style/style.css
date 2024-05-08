@@ -276,6 +276,7 @@ section{
 
 .informacoes{
     background-color: var(--cinza-claro);
+    margin-top: 8em;
 }
 
 .dark .informacoes{
