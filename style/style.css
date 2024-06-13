@@ -119,6 +119,11 @@ header {
     color: var(--preto);
 }
 
+.dark .header-btn:hover{
+    border: 2px solid var(--bg);
+    color: var(--bg);
+}
+
 /* ------ Icone menu ------
 --------------------------*/
 #menuIcon{
